@@ -1,0 +1,9 @@
+comparison,n,mean diff (pp),95% CI,p,CI excludes 0
+"architecture effect, narrow (D - A)",5,-0.33,"[-1.28, +0.61]",0.38,False
+"KD effect, narrow (E - D)",5,0.77,"[-0.15, +1.69]",0.081,False
+"total, narrow (E - A)",5,0.43,"[+0.19, +0.68]",0.008,True
+"architecture effect, wide (D - A)",3,-0.28,"[-0.82, +0.26]",0.157,False
+"KD effect, wide (E - D)",3,1.24,"[+0.14, +2.33]",0.04,True
+"total, wide (E - A)",3,0.96,"[+0.33, +1.58]",0.022,True
+"capacity effect, baseline (wide - narrow)",3,0.66,"[-0.51, +1.83]",0.136,False
+"capacity effect, improved+KD (wide - narrow)",3,1.2,"[+0.83, +1.56]",0.005,True

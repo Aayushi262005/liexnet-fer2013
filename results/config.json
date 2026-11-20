@@ -1,0 +1,46 @@
+{
+  "CFG": {
+    "IMG_SIZE": 48,
+    "TEACHER_IMG": 96,
+    "HEAD": "gap",
+    "EPOCHS": 60,
+    "BATCH": 128,
+    "LR": 0.002,
+    "WD": 0.0005,
+    "WARMUP_EPOCHS": 3,
+    "LABEL_SMOOTH": 0.1,
+    "EMA_DECAY": 0.999,
+    "USE_CLASS_WEIGHTS": true,
+    "KD_T": 4.0,
+    "KD_ALPHA": 0.5,
+    "TEACHER_EPOCHS": 30,
+    "TEACHER_LR": 0.0005,
+    "TEACHER_WD": 0.0001
+  },
+  "NARROW": [
+    24,
+    48,
+    72,
+    96
+  ],
+  "WIDE": [
+    32,
+    64,
+    96,
+    128
+  ],
+  "SEEDS_NARROW": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "SEEDS_WIDE": [
+    0,
+    1,
+    2
+  ],
+  "teacher_test_acc": 0.7052103650041794,
+  "teacher_test_acc_tta": 0.7116188353301756
+}

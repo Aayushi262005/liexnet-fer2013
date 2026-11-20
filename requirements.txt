@@ -1,0 +1,8 @@
+# Minimum versions; the experiments were run on a Google Colab GPU runtime.
+torch>=2.1          # torch.utils.flop_counter.FlopCounterMode is used
+torchvision>=0.16
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib

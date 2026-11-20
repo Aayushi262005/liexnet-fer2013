@@ -1,0 +1,11 @@
+# Dataset (do not redistribute FER2013)
+*.csv
+!results/*.csv
+# Model weights (attach to a GitHub Release instead)
+*.pt
+*.pth
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
