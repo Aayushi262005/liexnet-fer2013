@@ -3,7 +3,7 @@
 Code, per-seed results and statistics for the paper
 **"Lightweight Facial Expression Recognition on FER2013: Which Cheap Additions Help a LiExNet-Style Network?"**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/liexnet-fer2013/blob/main/notebooks/LiExNet_Improved_v3.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aayushi262005/liexnet-fer2013/blob/main/notebooks/LiExNet_Improved_v3.ipynb)
 
 We train a compact LiExNet-style CNN (48x48 grayscale input, four blocks, ECA channel attention) under one controlled
 pipeline and ask which inexpensive additions improve FER2013 accuracy once seed variance is accounted for:
